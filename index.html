@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link  rel="icon" href="img/favicon-16x16.png" type="image/x-icon">
+    <title>T.I DAY</title>
+    <link rel="stylesheet" href="css/style.css">
+    
+  </head>
+  
+
+  <body>
+
+    <div class="countdown">
+      <span class="title">Está chegando o dia do T.I </span>
+      <div class="box">
+        <span class="value" data-days>00</span>
+        <span class="name">dias</span>
+      </div>
+      <div class="box">
+        <span class="value" data-hours>00</span>
+        <span class="name">horas</span>
+      </div>
+      <div class="box">
+        <span class="value" data-minutes>00</span>
+        <span class="name">minutos</span>
+      </div>
+      <div class="box">
+        <span class="value" data-seconds>00</span>
+        <span class="name">segundos</span>
+      </div>
+      
+        <a href="carregamento.html">
+        <button class="botao-game">Press Start </button>
+      </a>
+    
+    </div>
+  
+    <style>
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+
+* {
+
+    margin: 0;
+
+    padding: 0;
+
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.botao-game {
+      background-color: #1b2a3e; /* Cor de fundo do botão */
+      color: #fff; /* Cor do texto do botão */
+      font-size: 24px; /* Tamanho da fonte */
+      padding: 10px 20px; /* Espaçamento interno */
+      border: 2px solid #ff0000; /* Cor da borda do botão */
+      border-radius: 10px; /* Cantos arredondados */
+      text-transform: uppercase; /* Transforma o texto em maiúsculas */
+      letter-spacing: 2px; /* Espaçamento entre letras */
+      font-family: 'Press Start 2P', cursive; /* Usando a fonte Press Start 2P que mencionei anteriormente */
+      cursor: pointer; /* Altera o cursor para a mão quando passa por cima */
+      transition: background-color 0.3s, color 0.3s; /* Efeito de transição suave */
+      margin-left: 170%;
+    }
+
+    .botao-game:hover {
+      background-color: #ff0000; /* Cor de fundo quando o mouse passa por cima */
+      color: #1b2a3e; /* Cor do texto quando o mouse passa por cima */
+    }
+
+.title{
+  color: #fff;
+  font-family: 'Press Start 2P', sans-serif;
+  font-size: 36px;
+  color: #ff6600; /* Exemplo de cor laranja */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+  left: 10%;
+}
+ 
+
+body {
+
+  background-color:  #22142b;
+
+    height: 100vh;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+}
+
+ 
+
+.box {
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-around;
+
+    height: 200px;
+
+    width: 140px;
+
+    background: transparent;
+
+    border-radius: 3px;
+
+    box-shadow: 0px 8px 10px rgba(0, 0, 0, .5);
+
+}
+
+ 
+
+.box {
+
+    height: 170px;
+
+    width: 130px;
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+    justify-content: center;
+
+    color: #fff;
+
+    background: rgba(5, 5, 5, .9);
+
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, .7);
+
+    border-radius: 7px;
+
+    letter-spacing: 3px;
+
+}
+
+ 
+
+.relogio span {
+
+    font-weight: bolder;
+
+    font-size: 60px;
+
+}
+
+ 
+
+.relogio span.tempo {
+
+    font-size: 10px;
+
+}
+@media screen and (max-width:600px) {
+            .countdown {
+                width: 100%;
+        margin-top: 0;
+            }
+
+            .title {
+                font-size: 20px;
+            }
+
+            .box {
+                margin: 0 5px;
+                font-size: 16px;
+            }
+        }
+
+        @media screen and (min-width:601px) {
+            .title {
+                font-size: 18px;
+            }
+
+            .box {
+                font-size: 14px;
+            }
+            header{
+        background-color: #B22222;
+        flex-direction: row;
+        padding: 3%;
+    }    
+        }
+    </style>
+
+   </style>
+    
+    <script src="js/app.js" defer></script>
+  </body>
+
+</html>
