@@ -20,7 +20,7 @@ a {
 }
 
 body{
-    background-color:  #610035;
+    background-color: #800080;
     
 }
 
@@ -37,7 +37,7 @@ html {
     left: 0;
     width: 100%;
     z-index: 99;
-    background-color:  #ff9900;
+    background-color:  #ADD8E6; ;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
@@ -149,10 +149,10 @@ section {
     padding: 1rem 5rem;
     outline: none;
     border: none;
-    background-color: var(--background-color);
+    background-color: #ADD8E6;
     border: .125rem solid var(--primary-color);
     border-radius: 2rem;
-    color: var(--primary-color);
+    color:  #B629B9;
     margin: 3rem 0;
     cursor: pointer;
     font-weight: 600;
@@ -185,14 +185,13 @@ section {
     font-family: 'Press Start 2P', cursive;
     font-size: 16px; /* Tamanho da fonte para os parágrafos */
 }
-h1, h2, h3 {
-    font-family: 'Arial Black', sans-serif;
-    color: #ff0080; /* Rosa choque */
-}
+
 
 /* Estilo de sombra de texto 3D */
 h1, h2, h3 {
-    text-shadow: 2px 2px 4px #ff02ea; /* Sombra verde neon */
+    color:  #FFA800;
+  
+
 }
 
 /* Fundo colorido para os títulos */
@@ -200,7 +199,7 @@ h1, h2, h3 {
     
     padding: 10px 20px;
     border-radius: 10px;
-    color: #05ffff; /* Amarelo neon */
+    
 }
 
 .fullwidth {
@@ -786,7 +785,7 @@ h1, h2, h3 {
 }
 
 #footer {
-    background: #f7f8f9;
+    background: #8AEAFF;
     color: #45505b;
     font-size: 14px;
     text-align: center;
