@@ -551,6 +551,8 @@ h1, h2, h3 {
     width: 33.33%;
 }
 
+.col-42
+
 .col-5 {
     width: 41.66%;
 }
@@ -880,3 +882,7 @@ h1, h2, h3 {
     width: 30%;
   }
   
+  .t.i{
+    border: #ff0000;
+    margin-left: 200%;
+  }

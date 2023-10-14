@@ -17,7 +17,7 @@ const countdown = () => {
 
   const timeLeft = targetDate - now;
 
-  const days = Math.floor(timeLeft / (1000 * 40 * 30 * 30 * 24));
+  const days = Math.floor(timeLeft / (1000 * 50 * 30 * 30 * 24));
   const hours = Math.floor(
     (timeLeft % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
   );
