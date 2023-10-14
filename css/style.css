@@ -228,3 +228,140 @@ h2{
   left: 10%;
 }
 
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+
+* {
+
+    margin: 0;
+
+    padding: 0;
+
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.botao-game {
+      background-color: #1b2a3e; /* Cor de fundo do botão */
+      color: #fff; /* Cor do texto do botão */
+      font-size: 24px; /* Tamanho da fonte */
+      padding: 10px 20px; /* Espaçamento interno */
+      border: 2px solid #ff6600; /* Cor da borda do botão */
+      border-radius: 10px; /* Cantos arredondados */
+      text-transform: uppercase; /* Transforma o texto em maiúsculas */
+      letter-spacing: 2px; /* Espaçamento entre letras */
+      font-family: 'Press Start 2P', cursive; /* Usando a fonte Press Start 2P que mencionei anteriormente */
+      cursor: pointer; /* Altera o cursor para a mão quando passa por cima */
+      transition: background-color 0.3s, color 0.3s; /* Efeito de transição suave */
+      margin-left: 150%;
+     margin-top: 25%;
+    }
+
+    .botao-game:hover {
+      background-color: #8AEAFF; /* Cor de fundo quando o mouse passa por cima */
+      color: #1b2a3e; /* Cor do texto quando o mouse passa por cima */
+    }
+
+.title{
+  color: #fff;
+  font-family: 'Press Start 2P', sans-serif;
+  font-size: 36px;
+  color: #ff6600; /* Exemplo de cor laranja */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+  left: 10%;
+}
+ 
+
+body {
+
+  background-color:  #770a68;;
+
+    height: 100vh;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+}
+
+ 
+
+.box {
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-around;
+
+    height: 200px;
+
+    width: 140px;
+
+    background: transparent;
+
+    border-radius: 3px;
+
+    box-shadow: 0px 8px 10px rgba(0, 0, 0, .5);
+
+}
+
+ 
+
+.box {
+
+    height: 170px;
+
+    width: 130px;
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+    justify-content: center;
+
+    color: #fff;
+
+    background: rgba(5, 5, 5, .9);
+
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, .7);
+
+    border-radius: 7px;
+
+    letter-spacing: 3px;
+
+}
+
+ 
+
+.relogio span {
+
+    font-weight: bolder;
+
+    font-size: 60px;
+
+}
+
+ 
+
+.relogio span.tempo {
+
+    font-size: 10px;
+
+}
+@media screen and (max-width: 700px) {
+ .countdown { width:400px;
+ } 
+
+ .botao-game {margin-right: 10%;
+}
+ 
+}  
+    
