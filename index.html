@@ -5,178 +5,203 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link  rel="icon" href="img/favicon-16x16.png" type="image/x-icon">
     <title>T.I DAY</title>
+    <link  rel="icon" href="img/logo 3favicon-32x32.png" type="image/x-icon">
     <link rel="stylesheet" href="css/style.css">
     
   </head>
   
 
   <body>
-
+   
     <div class="countdown">
-      <span class="title">Está chegando o dia do T.I </span>
+        <h1 class="tituloo">Está Chegando o Dia do Ti
+            <a href="carregamento.html" class="botao-estilo-80">Saiba Mais</a>
+        </h1>
+        
+       
+        
       <div class="box">
-        <span class="value" data-days>00</span>
-        <span class="name">dias</span>
+          <span class="num" data-days>00</span>
+          <span class="text">Dias</span>
       </div>
       <div class="box">
-        <span class="value" data-hours>00</span>
-        <span class="name">horas</span>
+          <span class="num" data-hours>00</span>
+          <span class="text">Horas</span>
       </div>
       <div class="box">
-        <span class="value" data-minutes>00</span>
-        <span class="name">minutos</span>
+          <span class="num" data-minutes>00</span>
+          <span class="text">Minutos</span>
       </div>
       <div class="box">
-        <span class="value" data-seconds>00</span>
-        <span class="name">segundos</span>
+          <span class="num" data-seconds>00</span>
+          <span class="text">Segundos</span>
       </div>
       
-        <a href="carregamento.html">
-        <button class="botao-game">Press Start </button>
-      </a>
-    
-    </div>
+  </div>
+  
   
     <style>
 
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
-
-* {
-
-    margin: 0;
-
-    padding: 0;
-
-    font-family: 'Open Sans', sans-serif;
-
-}
-
-.botao-game {
-      background-color: #1b2a3e; /* Cor de fundo do botão */
-      color: #fff; /* Cor do texto do botão */
-      font-size: 24px; /* Tamanho da fonte */
-      padding: 10px 20px; /* Espaçamento interno */
-      border: 2px solid #ff6600; /* Cor da borda do botão */
-      border-radius: 10px; /* Cantos arredondados */
-      text-transform: uppercase; /* Transforma o texto em maiúsculas */
-      letter-spacing: 2px; /* Espaçamento entre letras */
-      font-family: 'Press Start 2P', cursive; /* Usando a fonte Press Start 2P que mencionei anteriormente */
-      cursor: pointer; /* Altera o cursor para a mão quando passa por cima */
-      transition: background-color 0.3s, color 0.3s; /* Efeito de transição suave */
-      margin-left: 150%;
-     margin-top: 25%;
-    }
-
-    .botao-game:hover {
-      background-color: #8AEAFF; /* Cor de fundo quando o mouse passa por cima */
-      color: #1b2a3e; /* Cor do texto quando o mouse passa por cima */
-    }
-
-.title{
-  color: #fff;
-  font-family: 'Press Start 2P', sans-serif;
-  font-size: 36px;
-  color: #ff6600; /* Exemplo de cor laranja */
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
-  left: 10%;
-}
- 
-
 body {
 
-  background-color:  #770a68;;
+background-color:  #770a68;;
 
-    height: 100vh;
+  height: 100vh;
 
-    display: flex;
+  display: flex;
 
-    align-items: center;
+  align-items: center;
 
-    justify-content: center;
-
-}
-
- 
-
-.box {
-
-    display: flex;
-
-    align-items: center;
-
-    justify-content: space-around;
-
-    height: 200px;
-
-    width: 140px;
-
-    background: transparent;
-
-    border-radius: 3px;
-
-    box-shadow: 0px 8px 10px rgba(0, 0, 0, .5);
+  justify-content: center;
 
 }
 
- 
 
-.box {
+        .titulo{
+            background-color: #000;
+            color: #ff7f00;
+        }
+        .titulo{
+            background-color: #ff7f00;
+            border: 2px solid #ff7f00;
+            color: #000;
+            font-family: "Press Start 2P", cursive;
+            font-size: 1.5em;
+            padding: 10px 20px;
+            text-decoration: none;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            transition: background-color 0.3s, color 0.3s;
+        }
 
-    height: 170px;
-
-    width: 130px;
-
-    display: flex;
-
-    flex-direction: column;
-
-    align-items: center;
-
-    justify-content: center;
-
-    color: #fff;
-
-    background: rgba(5, 5, 5, .9);
-
-    box-shadow: 5px 5px 15px rgba(0, 0, 0, .7);
-
-    border-radius: 7px;
-
-    letter-spacing: 3px;
-
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins",sans-serif;
+  color: #ffffff;
+}
+body{
+  background-color: #770a68;
 }
 
- 
-
-.relogio span {
-
-    font-weight: bolder;
-
-    font-size: 60px;
-
-}
-
- 
-
-.relogio span.tempo {
-
-    font-size: 10px;
-
-}
-@media screen and (max-width: 700px) {
- .countdown { width:400px;
- } 
-
- .botao-game {margin-right: 10%;
-}
- 
-}  
-    </style>
-
-   
+.botao-estilo-80 {
+    background-color: #1b2a3e; /* Cor de fundo do botão */
+    color: #fff; /* Cor do texto do botão */
+    font-size: 14px; /* Tamanho da fonte */
+    padding: 10px 10px; /* Espaçamento interno */
+    border: 2px solid #ff0000; /* Cor da borda do botão */
+    border-radius: 10px; /* Cantos arredondados */
+    text-transform: uppercase; /* Transforma o texto em maiúsculas */
+    letter-spacing: 2px; /* Espaçamento entre letras */
+    font-family: 'Press Start 2P', cursive; /* Usando a fonte Press Start 2P que mencionei anteriormente */
+    cursor: pointer; /* Altera o cursor para a mão quando passa por cima */
+    transition: background-color 0.3s, color 0.3s; /* Efeito de transição suave */
     
-    <script src="js/app.js" defer></script>
-  </body>
+        }
 
-</html>
+        .botao-estilo-80:hover {
+            background-color: #ff8800; /* Cor de fundo quando o mouse passa por cima */
+    color: #1b2a3e; /* Cor do texto quando o mouse passa por cima */
+    
+        }
+
+.countdown{
+  width: 80vw;
+  display: flex;
+  justify-content: space-around;
+  gap: 10px;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  top: 50%;
+  left: 50%;
+}
+.box{
+  width: 28vmin;
+  height: 28vmin;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  position: relative;
+  box-shadow: 15px 15px 30px rgba(0,0,0,0.5);
+  font-size: 16px;
+}
+.box:after{
+  content: "";
+  position: absolute;
+  background-color: rgba(255,255,255,0.12);
+  height: 100%;
+  width: 50%;
+  left: 0;
+}
+span.num{
+  background-color: #202020;
+  height: 100%;
+  width: 100%;
+  display: grid;
+  place-items: center;
+  font-weight: 600;
+  font-size: 5em;
+}
+span.text{
+  font-size: 1.2em;
+  background-color: #ff0080;
+  display: block;
+  width: 100%;
+  text-align: center;
+  padding: 0.5em 0;
+  font-weight: 400;
+}
+.tituloo{
+    font-family: "Press Start 2P", cursive;
+            font-size: 0,5em;
+            color: rgb(255, 153, 0);
+            text-align: center;
+        }
+
+        
+@media screen and (max-width: 1024px){
+  .countdown{
+      width: 85vw;
+  }
+  .box{
+      height: 26vmin;
+      width: 26vmin;
+      font-size: 12px;
+  }
+  
+}
+@media screen and (max-width: 768px){
+  .countdown{
+      width: 90vw;
+      flex-wrap: wrap;
+      gap: 30px;
+  }
+  .box{
+      width: calc( 50% - 40px );
+      height: 30vmin;
+      font-size: 14px;
+  }
+}
+@media screen and (max-width: 480px){
+.countdown{
+      width: 90vw;
+      flex-wrap: wrap;
+      gap: 49px;
+  }
+  .box{
+      width: calc( 50% - 40px );
+      height: 30vmin;
+      font-size: 14px;
+  }
+}
+
+  </style>
+
+ 
+  <script src="js/app.js"></script>
+  
+</body>
