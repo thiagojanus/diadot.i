@@ -134,8 +134,10 @@ html {
 
 
 section {
-    padding: 9rem 0;
+    padding: 3rem 0;
 }
+
+
 
 .slogan {
     text-align: left;
@@ -165,7 +167,7 @@ section {
     color: #fff; /* Cor do texto do botão */
     font-size: 14px; /* Tamanho da fonte */
     padding: 10px 10px; /* Espaçamento interno */
-    border: 2px solid #ff0000; /* Cor da borda do botão */
+    border: 2px solid #eb5c09; /* Cor da borda do botão */
     border-radius: 10px; /* Cantos arredondados */
     text-transform: uppercase; /* Transforma o texto em maiúsculas */
     letter-spacing: 2px; /* Espaçamento entre letras */
@@ -253,7 +255,7 @@ h1, h2, h3 {
 }
 
 .food-category {
-    display: flex;
+  
 }
 
 .food-category button {
@@ -379,6 +381,10 @@ h1, h2, h3 {
 
 .rating i {
     color: var(--primary-color);
+}
+
+footer{
+    margin-top: 10%;
 }
 
 .footer {
@@ -900,6 +906,7 @@ h1, h2, h3 {
   .bx bxl-instagram{
     width: 30%;
   }
+
   
   .title{
     color: #fff;

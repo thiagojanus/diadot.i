@@ -61,11 +61,11 @@ span.text{
 
 
 .botao-estilo-80 {
-    background-color: #1b2a3e; /* Cor de fundo do botão */
+    background-color: #271a25; /* Cor de fundo do botão */
     color: #fff; /* Cor do texto do botão */
     font-size: 14px; /* Tamanho da fonte */
     padding: 10px 10px; /* Espaçamento interno */
-    border: 2px solid #ff0000; /* Cor da borda do botão */
+    border: 2px solid #ff7b00; /* Cor da borda do botão */
     border-radius: 10px; /* Cantos arredondados */
     text-transform: uppercase; /* Transforma o texto em maiúsculas */
     letter-spacing: 2px; /* Espaçamento entre letras */
@@ -77,14 +77,14 @@ span.text{
         }
 
 .botao-estilo-80:hover {
-            background-color: #ff8800; /* Cor de fundo quando o mouse passa por cima */
+            background-color: #ff00dd; /* Cor de fundo quando o mouse passa por cima */
     color: #1b2a3e; /* Cor do texto quando o mouse passa por cima */
     
         }
 
 .tituloo{
             font-family: "Press Start 2P", cursive;
-                    font-size: 0,5em;
+                    font-size: 0,3em;
                     color: #ADD8E6;
                     text-align: center;
                 }
@@ -98,6 +98,7 @@ span.text{
         width: 26vmin;
         font-size: 12px;
     }
+    
 }
 @media screen and (max-width: 768px){
     .countdown{
